@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    background-color: #001329;
+    color: red;
+    font-family: 'Anton', sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn {
+    margin: 100px;
+}
+
+.password {
+    width: 500px;
+    height: 50px;
+    font-size: 50px;
+    background-color: #3A435E;
+    border: 1px solid #444f70;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 30px;
+    color: rgb(60, 255, 0);
+}
+
+.inp-key {
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    background-color: #3A435E;
+    border: 1px solid #444f70;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    color: rgb(60, 255, 0)
+}
+
+.inp-key:focus {
+    width: 80px;
+    height: 80px;
+    font-size: 45px;
+    border: 1px solid #ff0000;
+    color: rgb(60, 255, 0)
+}
+
+button {
+    color: #FE1655;
+    font-size: 30px;
+    background-color: #023047;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: 47%;
+    border-radius: 5px;
+}
+
+.div-text {
+    text-align: center;
+}
+
+.div-text p {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.alert-err {
+    text-align: center;
+    font-size: 30px;
+}
+
+.alert-err-report {
+    text-align: center;
+    font-size: 25px;
+}
+
+.alert {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 255, 47);
+}

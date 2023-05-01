@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit&display=swap');
+body {
+    background-color: #001329;
+}
+
+.text {
+    text-align: center;
+}
+
+.alert-done {
+    text-align: center;
+}
+
+.alert-done p {
+    color: rgb(31, 214, 31);
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+.alert-err {
+    text-align: center;
+}
+
+.alert-err p {
+    color: rgb(151, 42, 94);
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text p {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #ef476f;
+}
+
+.form {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+}
+
+.form input {
+    font-size: 25px;
+    width: 370px;
+    height: 35px;
+    background-color: #3A435E;
+    border: solid 1px #444f70;
+    color: firebrick;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+}
+
+.form input:focus {
+    width: 425px;
+    height: 45px;
+    font-size: 30px;
+}
+
+.form-text p {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: #a594f9;
+}
+
+.send-btn {
+    margin: 10px;
+}
+
+.send-btn button {
+    margin: 20px;
+    color: #c2004e;
+    background-color: #023047;
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+}
